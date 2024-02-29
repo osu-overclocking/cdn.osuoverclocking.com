@@ -1,0 +1,11 @@
+baseURL: 'https://cdn.osuoverclocking.com/'
+
+redirects:
+- from: /**
+  status: 404
+  to: /404.html
+
+disableKinds:
+- taxonomy
+- term
+- home
